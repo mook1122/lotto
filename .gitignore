@@ -73,3 +73,7 @@ node_modules/
 firebase.json
 
 .firebase
+
+.vscode
+
+.gitignore
