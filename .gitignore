@@ -7,12 +7,6 @@ yarn-error.log*
 firebase-debug.log*
 firebase-debug.*.log*
 
-firebase
-firebaserc
-firebase.json
-
-gitignore
-
 # Firebase cache
 .firebase/
 
@@ -70,3 +64,12 @@ node_modules/
 
 # dotenv environment variables file
 .env
+
+
+.firebaserc
+
+404.html
+
+firebase.json
+
+.firebase
