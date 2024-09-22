@@ -77,3 +77,6 @@ firebase.json
 .vscode
 
 .gitignore
+
+robot.txt
+sitemap.xml
