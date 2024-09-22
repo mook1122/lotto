@@ -59,10 +59,11 @@ const fetchLottoData = (drawNo) => __awaiter(void 0, void 0, void 0, function* (
 });
 // 당첨번호 출력
 fetchLottoData(calculateWeeks() + 1);
+// 번호 생성
 const num_result_box = document.querySelector('.num-result-box');
 (_a = document.querySelector('.create-btn')) === null || _a === void 0 ? void 0 : _a.addEventListener('click', () => {
     const lotto = [];
-    while (lotto.length < 7) {
+    while (lotto.length < 6) {
         let num = Math.floor(Math.random() * 45) + 1;
         if (lotto.indexOf(num) === -1) {
             lotto.push(num);
@@ -81,8 +82,6 @@ const num_result_box = document.querySelector('.num-result-box');
                 <span class="result-num ball">${lotto[3]}</span>
                 <span class="result-num ball">${lotto[4]}</span>
                 <span class="result-num ball">${lotto[5]}</span>
-                <span>+</span>
-                <span class="result-num ball bonus">${lotto[6]}</span>
             </div>
         `);
     }
